@@ -36,7 +36,7 @@ function Web() {
 
             <div className="flex flex-col md:flex-row items-center justify-center">
               <div className="w-full md:w-1/2 flex justify-center ">
-                <p className="w-3/4 text-center py-4">
+                <p className="w-3/4 text-center md:text-right py-4">
                   This is a website that was created for a local Musician and
                   Bagpiper. The bagpiper wanted to promote his music lessons
                   business and musical performances of various groups he plays
@@ -117,7 +117,7 @@ function Web() {
 
             <div className="flex flex-col md:flex-row items-center justify-center">
               <div className="w-full md:w-1/2 flex justify-center ">
-                <p className="w-3/4 text-center py-4">
+                <p className="w-3/4 text-center md:text-right py-4">
                   A website to promote an Irish Music Group in Nanaimo. The
                   colour palette is reminiscent of the colours of Ireland, and
                   meant to give the site a celtic feel.
@@ -188,8 +188,8 @@ function Web() {
 
             <div className="flex flex-col md:flex-row items-center justify-center">
               <div className="w-full md:w-1/2 flex justify-center ">
-                <p className="w-3/4 text-center py-4">
-                  It just so happens that a foot care nurse also named Christine
+                <p className="w-3/4 text-center md:text-right py-4">
+                  It just so happens that a foot care nurse named Christine
                   hired web developer Christine to create a website for her. The
                   theme was meant to be whimsical and colourful. It was
                   important that the information would be displayed in a bold
@@ -265,7 +265,7 @@ function Web() {
 
             <div className="flex flex-col md:flex-row items-center justify-center">
               <div className="w-full md:w-1/2 flex justify-center ">
-                <p className="w-3/4 text-center py-4">
+                <p className="w-3/4 text-center md:text-right py-4">
                   Started for a final project for school, this full stack web
                   app was created as an aid for the popular board game{" "}
                   <a
@@ -277,7 +277,7 @@ function Web() {
                   . The web app is intended to keep track of various pieces of
                   information between campaigns. The app ended up being a huge
                   amount of work, and is still in progress, although a good
-                  amount of functionality was accomplished to satisfy the final
+                  amount of functionality was accomplished to submit for the final
                   project.
                 </p>
               </div>
@@ -324,7 +324,7 @@ function Web() {
                       >
                         Firebase
                       </a>{" "}
-                      Authentication and Database Storage
+                      User Authentication and Database Storage
                     </p>
                   </li>
                   <li className="flex flex-row items-center">

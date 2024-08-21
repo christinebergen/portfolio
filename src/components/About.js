@@ -1,54 +1,52 @@
 import React from "react";
 import headshot from "../assets/headshot.jpg";
+import travel1 from "../assets/travel.jpg";
+import travel2 from "../assets/travel2.jpg"
 
 const About = () => {
   return (
-    <div className="py-8 w-3/4 flex justify-center items-center">
+    <div className="py-8 w-full md:w-3/4 flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
-        <div className="bg-zinc-200 rounded-lg flex flex-col md:flex-row justify-center items-start">
-          <div className="md:bg-purple-100 md:p-10 mt-20 border-4 border-neutral rounded-3xl">
+        <div className="bg-zinc-200 rounded-lg flex flex-col md:flex-row justify-center items-center md:items-start">
+          <div className="bg-purple-100 p-4 md:p-10 mt-20 border-4 border-neutral rounded-3xl">
             <img src={headshot} className="w-60 h-auto rounded-3xl"></img>
+            <img src={travel1} className="w-60 h-auto rounded-3xl mt-10"></img>
+            <img src={travel2} className="w-60 h-auto rounded-3xl mt-10"></img>
           </div>
-          <div className="p-20 w-1/2">
+          <div className="px-6 py-10 w-full md:w-1/2 md:pl-10">
             <p className="text-gray-700">
-              Having always had a keen eye for attention to detail and a love
-              for and pretty things, Christine makes the perfect web developer.
-              She recently returned to school to complete a 2 year Information
-              Technology and Applied Systems Diploma at Vancouver Island
-              University. Although this program focused mainly on full stack Web
-              and Mobile Development and systems design principles and best
-              practices, other aspects of IT work were practiced such as in
-              depth Operating System functionality on different types of
-              operating systems (Windows, MacOS, and Linux), Virtual Machine
-              use, Shell Scripting, and Server/Systems Administration.
-              <br></br>
-              <br></br>Based on the principles of Computer Science but with
-              loads of hands on technical experience, the VIU ITAS WMD program
-              has prepared Christine's for any job within the tech industry.
-              <br></br>
-              <br></br>
-              Starting from the days of Geocities web pages in the 90's, she has
-              always had a keen interest in the world of Web Development, and
-              has really enjoyed the dive into this exciting field. She quickly
-              learned that she loved every aspect of front end dev work, and
-              loves seeing each of the pages evolve into a refined final
-              product.
-              <br></br>
-              <br></br>
-              Over the past 13 years, Christine has worked in various different
-              areas of healthcare and has developed a high level of
-              understanding of the different departments and various technology
-              struggles faced by health care workers. She is driven to become
-              involved with the rapidly evolving technology in healthcare, and
-              is currently searching for new job opportunities that can showcase
-              both her extensive healthcare experience and her information
-              technology expertise.
-              <br></br>
-              <br></br>
-              Christine lives in Nanaimo, BC with her husband and cat Cleo. When
-              she isn't working at the local hospital or designing websites, you
-              can find her camping all over Vancouver Island, Traveling to
-              Europe or the UK, or playing her Concertina.
+              Christine is a meticulous and creative web developer with a
+              passion for aesthetics and detail. Recently, she completed a
+              two-year Information Technology and Applied Systems Diploma at
+              Vancouver Island University, where she honed her skills in
+              full-stack web and mobile development, systems design, and best
+              practices. Her education also covered a range of IT disciplines,
+              including operating system functionality across Windows, macOS,
+              and Linux, virtual machine management, shell scripting, and
+              server/systems administration.
+              <br />
+              <br />
+              Drawing from foundational principles of computer science and
+              hands-on technical experience, Christine is well-prepared for a
+              diverse range of roles within the tech industry. Her journey began
+              in the 90s with Geocities web pages, sparking a long-standing
+              interest in web development. Through her studies, she discovered a
+              love for front-end development and enjoys seeing each project
+              evolve into a polished final product.
+              <br />
+              <br />
+              With over 13 years of experience in various healthcare roles,
+              Christine possesses a deep understanding of the challenges faced
+              by healthcare workers and the technology they use. She is eager to
+              contribute to the rapidly advancing field of healthcare technology
+              and is actively seeking opportunities that leverage both her
+              healthcare background and IT expertise.
+              <br />
+              <br />
+              Christine resides in Nanaimo, BC, with her husband and their cat,
+              Cleo. When she’s not working at the local hospital or designing
+              websites, you’ll find her camping across Vancouver Island,
+              traveling to Europe or the UK, or playing her concertina.
             </p>
           </div>
         </div>
@@ -56,5 +54,4 @@ const About = () => {
     </div>
   );
 };
-
 export default About;

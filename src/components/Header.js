@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo2.png";
-import purple from "../assets/purple.png";
+import purple from "../assets/pink.png";
 import SwirlyLine from "./SwirlyLine";
 
 const Header = () => {
@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <nav className="bg-mainBackground shadow-2xl">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="container mx-auto flex justify-between items-center p-4 border-b-2">
         <div className="hidden md:flex flex-wrap md:text-xl space-x-6">
           <Link className={getLinkClass("/")} to="/">
             Home
@@ -43,9 +43,17 @@ const Header = () => {
                   <img
                     src={purple}
                     alt=""
-                    className="h-24 w-auto block md:hidden"
-                  />{" "}
-                  <h1 className="text-6xl md:hidden text-primary">CB</h1>
+                    className="h-16 w-auto block md:hidden"
+                  />
+                  <div className="md:hidden block">
+                    <h1 className="text-lg text-primary">
+                      Christine Bergen <br></br>
+                    </h1>
+                    <h2 className="text-sm">
+                      Information Technology Specialist
+                    </h2>
+                    <h2 className="text-sm">& Web Developer</h2>
+                  </div>
                 </div>
                 <img src={purple} alt="" className="h-24 md:block hidden" />
               </div>
@@ -97,14 +105,8 @@ const Header = () => {
           isOpen ? "block" : "hidden"
         } md:hidden bg-lightBackground shadow-xl`}
       >
-        <div className=" text-right ">
-          <h1 className="text-xl md:text-3xl text-primary">
-            Christine Bergen <br></br>
-          </h1>
-          <h2>Information Technology Specialist</h2>
-          <h2>& Web Developer</h2>
-        </div>
-        <SwirlyLine/>
+        
+        <SwirlyLine />
         <div className="flex flex-col items-start p-4 space-y-2">
           <Link
             className={getLinkClass("/")}

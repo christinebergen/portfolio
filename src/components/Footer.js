@@ -13,7 +13,7 @@ function Footer() {
   return (
     <div className="bg-mainBackground flex flex-col pb-8 flex justify-center items-center">
       <SwirlyLine />
-      <div className="hidden md:flex flex-wrap md:text-xl space-x-6">
+      <div className="flex flex-wrap justify-center md:text-xl space-x-6 mb-4 mr-2 ml-2">
         <Link className={getLinkClass("/")} to="/">
           Home
         </Link>
@@ -32,7 +32,7 @@ function Footer() {
       </div>
       
       <div>
-        <h1 className="text-primary text-2xl">&copy;2024 Christine Bergen</h1>
+        <h1 className="text-primary text-lg md:text-2xl">&copy;2024 Christine Bergen</h1>
       </div>
     </div>
   );
