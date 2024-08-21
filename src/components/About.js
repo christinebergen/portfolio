@@ -1,12 +1,14 @@
 import React from "react";
 import headshot from "../assets/headshot.jpg";
 import travel1 from "../assets/travel.jpg";
-import travel2 from "../assets/travel2.jpg"
+import travel2 from "../assets/travel2.jpg";
+import SwirlyLine from "./SwirlyLine";
 
 const About = () => {
   return (
     <div className="py-8 w-full md:w-3/4 flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
+        <SwirlyLine />
         <div className="bg-zinc-200 rounded-lg flex flex-col md:flex-row justify-center items-center md:items-start">
           <div className="bg-purple-100 p-4 md:p-10 mt-20 border-4 border-neutral rounded-3xl">
             <img src={headshot} className="w-60 h-auto rounded-3xl"></img>

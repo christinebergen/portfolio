@@ -1,13 +1,11 @@
-import React from "react";
-import SwirlyLine from "./SwirlyLine";
-import footcare from "../assets/footcare.png";
-import bagpipe from "../assets/bagpipe.png";
-import irish from "../assets/irish.png";
-import iatracker from "../assets/iatracker.png";
-import network from "../assets/network.png";
-import linux from "../assets/linux.png";
-
-
+import React from 'react';
+import SwirlyLine from './SwirlyLine';
+import bagpipe from '../assets/bagpipe.png';
+import irish from '../assets/irish.png';
+import footcare from '../assets/footcare.png';
+import iatracker from '../assets/iatracker.png';
+import network from '../assets/network.png';
+import linux from '../assets/linux.png';
 
 const Home = () => {
   return (
