@@ -28,7 +28,7 @@ function Web() {
             ></img>
 
             <a
-              href="www.celticcoastbagpiper.vercel.app"
+              href="https://celticcoastbagpiper.vercel.app"
               className="text-blue-800 underline hover:font-bold my-4"
             >
               www.celticcoastbagpiper.vercel.app
@@ -41,9 +41,12 @@ function Web() {
                   Bagpiper. The bagpiper wanted to promote his music lessons
                   business and musical performances of various groups he plays
                   with. The site was designed for ease of navigation and to
-                  portray information in a clear and concise manner.
+                  portray information in a clear and concise manner. This
+                  website also boasts a "dark mode" with a separate colour
+                  schemes for light and dark operating systems.
                 </p>
               </div>
+
               <div className="w-full md:w-1/2 md:ml-8 flex flex-col justify-center items-center">
                 <h3 className="text-lg text-center underline">
                   Website features:
@@ -90,7 +93,7 @@ function Web() {
                     <img src={github} className="h-6 rounded-lg mr-2"></img>
                     <p>
                       <a
-                        href="https://tailwindcss.com/"
+                        href="https://github.com/"
                         className="text-blue-800 underline hover:font-bold"
                       >
                         GitHub
@@ -161,7 +164,7 @@ function Web() {
                     <img src={github} className="h-6 rounded-lg mr-2"></img>
                     <p>
                       <a
-                        href="https://tailwindcss.com/"
+                        href="https://github.com/"
                         className="text-blue-800 underline hover:font-bold"
                       >
                         GitHub
@@ -234,7 +237,7 @@ function Web() {
                     <img src={github} className="h-6 rounded-lg mr-2"></img>
                     <p>
                       <a
-                        href="https://tailwindcss.com/"
+                        href="https://github.com/"
                         className="text-blue-800 underline hover:font-bold"
                       >
                         GitHub
@@ -277,8 +280,8 @@ function Web() {
                   . The web app is intended to keep track of various pieces of
                   information between campaigns. The app ended up being a huge
                   amount of work, and is still in progress, although a good
-                  amount of functionality was accomplished to submit for the final
-                  project.
+                  amount of functionality was accomplished to submit for the
+                  final project.
                 </p>
               </div>
               <div className="w-full md:w-1/2 md:ml-8 flex flex-col justify-center items-center">

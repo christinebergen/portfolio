@@ -11,8 +11,8 @@ const Header = () => {
 
   const getLinkClass = (path) => {
     return location.pathname === path
-      ? "text-neutral font-bold bg-gray-200 pr-2 pl-2 rounded-md dark:text-white" // Active link color
-      : "text-gray-800 hover:text-white dark:text-white";
+      ? "text-neutral font-bold bg-gray-200 pr-2 pl-2 rounded-md" // Active link color
+      : "text-gray-800 hover:text-white";
   };
 
   return (
@@ -71,7 +71,7 @@ const Header = () => {
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
-            className="text-gray-800 hover:text-white focus:outline-none dark:text-white"
+            className="text-gray-800 hover:text-white focus:outline-none"
           >
             <svg
               className="h-6 w-6"
