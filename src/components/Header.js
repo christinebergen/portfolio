@@ -55,7 +55,7 @@ const Header = () => {
                     <h2 className="text-sm">& Web Developer</h2>
                   </div>
                 </div>
-                <img src={purple} alt="" className="h-24 md:block hidden" />
+                <img src={purple} alt="" className="w-24 md:block hidden" />
               </div>
               <div className="hidden md:block">
                 <h1 className="text-xl md:text-3xl text-primary">
@@ -105,7 +105,6 @@ const Header = () => {
           isOpen ? "block" : "hidden"
         } md:hidden bg-lightBackground shadow-xl`}
       >
-        
         <SwirlyLine />
         <div className="flex flex-col items-start p-4 space-y-2">
           <Link
