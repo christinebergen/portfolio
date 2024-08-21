@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <div className="flex flex-col justify-center items-center bg-mainBackground text-neutral min-h-screen">
       <div className="w-full md:w-3/4 mt-8 pt-10 bg-zinc-200 p-4 rounded-lg">
-        <h1 className="text-primary text-center text-xl md:text-2xl">
+        <h1 className="text-primary text-center text-xl md:text-3xl">
           Web Development and System Operations Portfolio
         </h1>
         <SwirlyLine />

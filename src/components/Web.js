@@ -18,7 +18,7 @@ function Web() {
     <div className="py-8 w-3/4 flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
         <div className="bg-zinc-200 rounded-lg flex flex-col justify-center items-center">
-          <h1 className="text-primary text-3xl mt-10 text-center">
+          <h1 className="text-primary text-lg md:text-3xl mt-10 text-center">
             Completed Web Development Projects
           </h1>
           <div className="flex flex-col justify-center items-center w-full rounded-lg p-10">
