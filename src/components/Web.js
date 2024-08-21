@@ -24,7 +24,7 @@ function Web() {
           <div className="flex flex-col justify-center items-center w-full rounded-lg p-10">
             <img
               src={bagpipe}
-              className="h-40 border-4 border-[#588368] rounded-lg"
+              className="md:h-40 border-4 border-[#588368] rounded-lg"
             ></img>
 
             <a
@@ -105,7 +105,7 @@ function Web() {
           <div className="flex flex-col justify-center items-center w-full rounded-lg p-10">
             <img
               src={irish}
-              className="h-32 border-4 border-[#4D5D54] rounded-lg"
+              className="md:h-32 border-4 border-[#4D5D54] rounded-lg"
             ></img>
 
             <a
@@ -176,7 +176,7 @@ function Web() {
           <div className="flex flex-col justify-center items-center w-full rounded-lg p-10">
             <img
               src={footcare}
-              className="h-32 float-left border-4 border-[#25A48B] rounded-lg"
+              className="md:h-32 float-left border-4 border-[#25A48B] rounded-lg"
             ></img>
 
             <a
@@ -253,7 +253,7 @@ function Web() {
           <div className="flex flex-col justify-center items-center w-full rounded-lg p-10">
             <img
               src={iatracker}
-              className="h-48 float-left border-4 border-[#039AC9] rounded-lg"
+              className="md:h-48 aspect-auto float-left border-4 border-[#039AC9] rounded-lg"
             ></img>
 
             <a
