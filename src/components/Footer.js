@@ -30,9 +30,19 @@ function Footer() {
           Contact
         </Link>
       </div>
-      
+
+      <div className="w-full md:w-3/4 text-primary text-xs md:text-md text-center flex flex-col justify-center items-center">
+        <p className="italic my-2 md:my-4">
+          Christine respectfully acknowledges that she lives, works, and plays
+          on the traditional and unceded territories of the Coast Salish
+          peoples, including the territories of the Snuneymuxw, Snaw-naw-as, and
+          Stzuminus First Nations.
+        </p>
+      </div>
       <div>
-        <h1 className="text-primary text-lg md:text-2xl">&copy;2024 Christine Bergen</h1>
+        <h1 className="text-primary text-lg md:text-2xl">
+          &copy;2024 Christine Bergen
+        </h1>
       </div>
     </div>
   );
