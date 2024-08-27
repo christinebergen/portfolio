@@ -31,7 +31,7 @@ function Footer() {
         </Link>
       </div>
 
-      <div className="w-full md:w-3/4 text-primary text-xs md:text-md text-center flex flex-col justify-center items-center">
+      <div className="w-full md:w-3/4 text-primary text-sm md:text-lg text-center flex flex-col justify-center items-center">
         <p className="italic my-2 md:my-4">
           Christine respectfully acknowledges that she lives, works, and plays
           on the traditional and unceded territories of the Coast Salish
