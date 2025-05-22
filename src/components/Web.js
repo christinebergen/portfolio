@@ -28,10 +28,10 @@ function Web() {
             ></img>
 
             <a
-              href="https://celticcoastbagpiper.vercel.app"
+              href="https://celticcoastmusic.ca"
               className="text-blue-800 underline hover:font-bold my-4"
             >
-              www.celticcoastbagpiper.vercel.app
+              www.celticcoastmusic.ca
             </a>
 
             <div className="flex flex-col md:flex-row items-center justify-center">
@@ -67,7 +67,7 @@ function Web() {
                   <li className="flex flex-row items-center">
                     <img src={vercel} className="h-6 mr-2 rounded-lg"></img>
                     <p>
-                      Hosting & free domain with{" "}
+                      Hosting with{" "}
                       <a
                         href="https://vercel.com/"
                         className="text-blue-800 underline hover:font-bold"

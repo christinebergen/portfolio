@@ -46,7 +46,7 @@ const About = () => {
                 seeing each project evolve into a polished final product.
                 <br />
                 <br />
-                With over 13 years of experience in various healthcare roles,
+                With almost 14 years of experience in various healthcare roles,
                 Christine possesses a deep understanding of the challenges faced
                 by healthcare workers and the technology they use. She is eager
                 to contribute to the rapidly advancing field of healthcare
@@ -55,9 +55,9 @@ const About = () => {
                 <br />
                 <br />
                 Christine resides in Nanaimo, BC, with her husband and their
-                cat, Cleo. When she’s not working at the local hospital or
+                cat. When she’s not working at the local hospital or
                 designing websites, you’ll find her camping across Vancouver
-                Island, traveling to Europe or the UK, or playing her
+                Island, traveling to Europe or the United Kingdom, or playing her
                 concertina.
               </p>
             </div>
